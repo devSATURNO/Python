@@ -1,15 +1,11 @@
-n = 0
-male = 'm'
-female = 'f'
+n = 's'
 
-while n != 0:
-    gender = str(input('What is your gender'))
-    if gender == male:
-        print('Hello sir')
-    if gender == female:
-        print('Hello mam')
-    else:
-        print('Invalid')
-    n = n + 1
-    
+while n == 's':
+    gender = str(input('wath is your gender: '))
+    if gender == 'm':
+        print('Snhor!')
+    elif gender =='f':
+        print('Senhora;)')
+    n = str(input('Quer continuar S/N: '))
+print('fim')
     
