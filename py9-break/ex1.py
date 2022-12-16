@@ -7,3 +7,4 @@ while cont <= 10:
     print(f'{termo}')
     termo += tp
     cont += 1
+
